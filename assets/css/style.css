@@ -12,7 +12,7 @@ section.conteudo-principal {
 
 section.conteudo-principal div.depoimentos {
   background-color: var(--moderate-violet);
-  width: 350px;
+  width: 335px;
   padding: 0 30px 0 30px;
   border-radius: 8px;
 }
@@ -26,13 +26,24 @@ section.conteudo-principal div.depoimentos div.depoimento {
 section.conteudo-principal div.depoimentos div.depoimento div.perfil {
   display: flex;
   align-items: center;
+  padding-top: 20px;
+}
+
+section.conteudo-principal div.depoimentos div.depoimento div.texto {
   padding: 20px 0;
 }
 
-section.conteudo-principal div.depoimentos div.depoimento img.imagem {
+section.conteudo-principal div.depoimentos div.depoimento div.imagem-perfil {
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
   border-radius: 50%;
-  border: 3px solid var(--border);
-  margin-right: 15px;
+  border: 2px solid var(--border);
+  margin-right: 12px;
+}
+
+section.conteudo-principal div.depoimentos div.depoimento img.imagem {
+  width: 100%;
 }
 
 section.conteudo-principal
@@ -40,7 +51,7 @@ section.conteudo-principal
   div.depoimento
   div.dados-pessoais
   h1.nome {
-  color: var(--light-grayish-blue);
+  color: var(--light-gray);
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -50,7 +61,20 @@ section.conteudo-principal
   div.depoimento
   div.dados-pessoais
   p.status {
-  color: var(--light-gray);
-  font-size: 1.3rem;
+  color: var(--verified-graduate);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+section.conteudo-principal div.depoimentos div.depoimento div.texto h1.titulo {
+  color: var(--light-grayish-blue);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+section.conteudo-principal div.depoimentos div.depoimento div.texto p.mensagem {
+  color: var(--review-paragraph);
+  font-size: 1.2rem;
   font-weight: 500;
 }
