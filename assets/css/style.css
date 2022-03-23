@@ -21,6 +21,7 @@ section.conteudo-principal div.depoimentos div.depoimento {
   background-image: url("../images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position: top right;
+  margin-bottom: 40px;
 }
 
 section.conteudo-principal div.depoimentos div.depoimento div.perfil {
@@ -31,6 +32,7 @@ section.conteudo-principal div.depoimentos div.depoimento div.perfil {
 
 section.conteudo-principal div.depoimentos div.depoimento div.texto {
   padding: 20px 0;
+  width: 225px;
 }
 
 section.conteudo-principal div.depoimentos div.depoimento div.imagem-perfil {
